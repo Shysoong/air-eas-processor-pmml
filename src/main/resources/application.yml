@@ -1,0 +1,12 @@
+server:
+  port: 8099
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.9.221:8848
+processor:
+  type: PMML
+  modelFileName: xlab_m_logisticregres_1788333_v0-逻辑回归二分类-1-Model.pmml
+
